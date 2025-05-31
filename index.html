@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body style="background-color: black;">
+    <div class="welcome">
+        <p><b>WELCOME TO FORAM'S CALCULATOR</b></p>
+    </div>
+    <div style="display: flex;justify-content: center; ">
+        <div style="background-color: gray; border-radius: 5px;padding: 20px;padding-top: 30px; width: 300px;">
+
+            <input type="text" id="display">
+            <div>
+                <button class="btn1" onclick="ac()"><b>AC</b></button>
+                <button class="btn1" onclick="ac()"><b><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                            id="arro">
+                            <path fill="#0d0d0d"
+                                d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+                        </svg></b></button>
+                <button class="btn"><b> %</b></button>
+                <button class="btn n"><b>/</b></button>
+            </div>
+            <div>
+                <button class="btn"><b>7</b></button>
+                <button class="btn"><b>8</b></button>
+                <button class="btn"><b>9</b></button>
+                <button class="btn n"><b>*</b></button>
+            </div>
+            <div>
+                <button class="btn"><b>4</b></button>
+                <button class="btn"><b>5</b></button>
+                <button class="btn"><b>6</b></button>
+                <button class="btn n"><b>-</b></button>
+            </div>
+            <div>
+                <button class="btn"><b>1</b></button>
+                <button class="btn"><b>2</b></button>
+                <button class="btn"><b>3</b></button>
+                <button class="btn n"><b>+</b></button>
+            </div>
+            <div>
+                <button class="btn"><b>0</b></button>
+                <button class="btn"><b>00</b></button>
+                <button class="btn"><b>.</b></button>
+                <button class="btn1 n" onclick="demo()"><b>=</b></button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

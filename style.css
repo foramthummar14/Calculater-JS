@@ -1,0 +1,43 @@
+.btn {
+    height: 55px;
+    width: 55px;
+    border-radius: 30px;
+    font-size: 25px;
+    background-color: rgb(198, 197, 197);
+    margin-top: 2vh;
+    margin: 1vh;
+    border: 0cap;
+}
+.btn1{
+    height: 55px;
+    width: 55px;
+    border-radius: 30px;
+    font-size: 25px;
+    background-color: rgb(198, 197, 197);
+    margin-top: 2vh;
+    margin: 1vh;
+    border: 0cap;
+}
+#display {
+    /* background-color:black; */
+    height: 40px;
+    width: 260px;
+    border-radius: 7px;
+    margin-left: 15px;
+    border: 0cap;
+}
+
+#arro {
+    height: 25px;
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    color: cadetblue;
+    padding: 30px;
+    font-size: 40px;
+}
+.n{
+    background-color: rgb(250, 141, 24);
+    color: white;
+}
